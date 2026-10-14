@@ -40,7 +40,3 @@ python env/app.py
 ## Training your own
 
 Training follows the standard YOLOv5 workflow: clone YOLOv5, point a dataset YAML at `data/` and the class names in `classes.txt`, and run its `train.py`. The best and last weights land in `runs/train/exp*/weights/`, which is where `app.py` expects them.
-
-## Note on `yolov5/` and `labelImg/`
-
-These two folders were committed as Git submodule links, but the repo has no `.gitmodules` file, so they come down empty. Clone [YOLOv5](https://github.com/ultralytics/yolov5) and [labelImg](https://github.com/HumanSignal/labelImg) next to this project (or re-add them as submodules) when you need them.
